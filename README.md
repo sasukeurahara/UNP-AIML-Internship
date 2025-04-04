@@ -1,77 +1,48 @@
-# Internship Projects at United Network of Professionals (UNP)
+# Internship Projects @ UNP (United Network of Professionals)
 
-This repository contains the machine learning and data analysis projects I completed during my internship at **United Network of Professionals (UNP)**. These projects primarily focused on applying supervised machine learning techniques to solve real-world problems in predictive analytics.
-
----
-
-## 📁 Projects
-
-### 1. Customer Churn Prediction 📉
-
-**Objective**: Predict which customers are likely to unsubscribe from a telecom service using various classification models.
-
-**Dataset**: Customer usage data from an Iranian telecom company (12-month period, 3150 entries).
-
-**Techniques Used**:
-- Data preprocessing and visualization (matplotlib, seaborn, plotly)
-- Outlier analysis and scaling with `StandardScaler`
-- Implemented models:
-  - Logistic Regression
-  - Decision Tree Classifier
-  - Random Forest Classifier
-  - K-Nearest Neighbors Classifier
-  - Support Vector Machine
-
-**Key Outcome**:
-- **Random Forest Classifier** achieved the best performance with **95.36% accuracy** using a 75-25 train-test split.
-- Identified key customer features influencing churn like age group, subscription length, and charge amount.
+This repo contains ML projects I worked on during my internship at UNP.
 
 ---
 
-### 2. Regression Analysis Project 📊
+## 📊 1. Customer Churn Prediction
 
-**Objective**: Build and evaluate regression models to understand relationships between numeric variables and predict a continuous target value.
+**Goal**: Predict which customers are likely to leave a telecom service.
 
-**Key Steps**:
-- Conducted Exploratory Data Analysis (EDA)
-- Handled missing values and outliers
-- Trained and compared multiple regression algorithms:
-  - Linear Regression
-  - Lasso Regression
-  - Ridge Regression
-  - Decision Tree Regressor
-  - Random Forest Regressor
+**Models & Accuracy**:
+- Random Forest: 95.36%
+- SVM: 93.18%
+- Logistic Regression: 92.27%
+- KNN: 91.81%
+- Decision Tree: 91.36%
 
-**Evaluation Metrics**:
-- Mean Squared Error (MSE)
-- R² Score
-
-**Insight**: Random Forest Regressor consistently outperformed others in capturing non-linear relationships and reducing prediction error.
+**Tools**: Pandas, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-## 📌 Skills Gained
+## 📈 2. Regression Analysis
 
-- Supervised learning (Classification & Regression)
-- Data wrangling and feature engineering
-- Model tuning and evaluation
-- Data visualization and interpretation
-- Collaborative project execution using Python-based tools
+**Goal**: Predict continuous values using regression models.
+
+**Models & R² Scores**:
+- Random Forest: 94.3%
+- Decision Tree: 90.5%
+- Linear Regression: 85.0%
+- Ridge: 84.2%
+- Lasso: 83.7%
+
+**Tools**: Pandas, Seaborn, Scikit-learn
 
 ---
 
-## 🛠 Tools & Libraries
+## 🧠 Skills Gained
 
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn, Plotly
-- Scikit-learn
-- Jupyter Notebooks
+- Data Preprocessing  
+- Model Training & Evaluation  
+- Visualization  
+- Supervised ML (Classification & Regression)
 
 ---
 
 ## 📃 Acknowledgments
 
 These projects were completed under the guidance and mentorship at **United Network of Professionals (UNP)**. The experience greatly enhanced my understanding of applied machine learning.
-
----
